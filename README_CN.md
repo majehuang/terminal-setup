@@ -37,6 +37,15 @@
 git clone https://github.com/lewislulu/terminal-setup.git
 cd terminal-setup && ./setup.sh
 ```
+#### 一键安装
+不放心可以先测试一下
+```bash
+curl -fsSL https://raw.githubusercontent.com/majehuang/terminal-setup/main/setup-ghostty-catppuccin.sh | bash -s -- --dry-run
+```
+正式安装
+```bash
+curl -fsSL https://raw.githubusercontent.com/majehuang/terminal-setup/main/setup-ghostty-catppuccin.sh | bash
+```
 
 ### Debian / Ubuntu
 
